@@ -1,0 +1,14 @@
+CREATE TABLE clientes (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  cliente VARCHAR(255),
+  cidade VARCHAR(255),
+  estado VARCHAR(255)
+);
+
+
+CREATE TABLE produtos (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nome VARCHAR(255) NOT NULL,
+  descricao TEXT,
+  preco DECIMAL(10, 2)
+);
